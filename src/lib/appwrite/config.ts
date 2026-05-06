@@ -1,4 +1,4 @@
-export const DATABASE_ID = "portfolio_db";
+export const DATABASE_ID = "69fb67cc002f10a2f3e2";
 export const COLLECTION = {
   PROJECTS: "projects",
   SKILLS: "skills",
