@@ -2,8 +2,8 @@ import Navigation from "@/components/shared/navigation";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "iOnidev — Admin Dashboard",
-  description: "Admin dashboard for managing iOnidev portfolio content.",
+  title: "NsCliff — Admin Dashboard",
+  description: "Admin dashboard for managing NsCliff portfolio content.",
 };
 
 export default function AdminLayout({

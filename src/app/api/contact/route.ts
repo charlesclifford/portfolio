@@ -21,9 +21,9 @@ export async function POST(req: NextRequest) {
     }
 
     const BREVO_API_KEY = process.env.BREVO_API_KEY;
-    const TO_EMAIL = process.env.CONTACT_TO_EMAIL ?? "hello@ionidev.com";
-    const FROM_EMAIL = process.env.CONTACT_FROM_EMAIL ?? "hello@ionidev.com";
-    const FROM_NAME = process.env.CONTACT_FROM_NAME ?? "iOnidev";
+    const TO_EMAIL = process.env.CONTACT_TO_EMAIL ?? "hello@NsCliff.com";
+    const FROM_EMAIL = process.env.CONTACT_FROM_EMAIL ?? "hello@NsCliff.com";
+    const FROM_NAME = process.env.CONTACT_FROM_NAME ?? "NsCliff";
 
     // Dev fallback — no API key configured
     if (!BREVO_API_KEY) {
@@ -46,8 +46,8 @@ export async function POST(req: NextRequest) {
         to: [{ email: TO_EMAIL }],
         replyTo: { email, name },
         subject: subject?.trim()
-          ? `[ionidev.com] ${subject}`
-          : `[ionidev.com] New message from ${name}`,
+          ? `[NsCliff.com] ${subject}`
+          : `[NsCliff.com] New message from ${name}`,
         htmlContent: `
           <div style="font-family: system-ui, sans-serif; max-width: 600px; margin: 0 auto; padding: 32px 24px; background: #0a0a0a; color: #e5e5e5; border-radius: 12px;">
             <h2 style="font-weight: 300; font-size: 24px; margin: 0 0 24px; color: #fff;">
@@ -82,7 +82,7 @@ export async function POST(req: NextRequest) {
             </div>
 
             <p style="font-size: 12px; color: #555; margin: 24px 0 0; text-align: center;">
-              Sent from the contact form at ionidev.com
+              Sent from the contact form at NsCliff.com
             </p>
           </div>
         `,

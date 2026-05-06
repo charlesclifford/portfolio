@@ -44,7 +44,7 @@ export default function Loading() {
         <span className="font-mono-logo text-accent text-lg font-medium">
           i
         </span>
-        <span className="text-foreground text-lg font-medium">Onidev</span>
+        <span className="text-foreground text-lg font-medium">NsCliff</span>
       </div>
     </div>
   );

@@ -104,7 +104,7 @@ export default function Footer() {
         {/* Bottom row */}
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 mt-10 pt-6 border-t border-border">
           <p className="text-xs text-muted">
-            © {year} {profile?.name ?? "John Mason"}. All rights reserved.
+            © {year} {profile?.name ?? "John Doe"}. All rights reserved.
           </p>
           <Link
             href="/contact"

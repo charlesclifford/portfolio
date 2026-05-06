@@ -96,9 +96,9 @@ export default function AdminSidebar() {
       {/* ── Mobile top bar ──────────────────────────────────────── */}
       <header className="fixed top-0 left-0 right-0 h-14 bg-card border-b border-border flex items-center justify-between px-4 z-40 md:hidden">
         <Link href="/" className="no-underline flex items-center gap-1">
-          <span className="font-mono-logo text-accent text-[15px]">i</span>
+          <span className="font-mono-logo text-accent text-[15px]">Ns</span>
           <span className="text-foreground text-[15px] font-medium">
-            Onidev
+            Cliff
           </span>
           <span className="ml-1.5 text-[9px] tracking-widest uppercase text-muted border border-border rounded px-1 py-0.5">
             Admin

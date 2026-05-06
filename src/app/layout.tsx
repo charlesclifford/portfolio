@@ -20,18 +20,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "iOnidev — John Mason, Full Stack Developer",
-  description:
-    "Full Stack Developer based in Port Harcourt, Nigeria. Ship less. Engineer more.",
-  metadataBase: new URL("https://ionidev.com"),
-  openGraph: {
-    title: "iOnidev — John Mason",
-    description: "Ship less. Engineer more.",
-    url: "https://ionidev.com",
-    siteName: "iOnidev",
-    locale: "en_US",
-    type: "website",
-  },
+  title: "NsCliff",
+  description: "Product Designer based in Port Harcourt, Nigeria.",
+  // metadataBase: new URL("https://"),
 };
 
 export default function RootLayout({

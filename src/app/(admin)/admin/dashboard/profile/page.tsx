@@ -116,7 +116,7 @@ export default function ProfilePage() {
                 type="text"
                 value={form.name ?? ""}
                 onChange={(e) => set("name", e.target.value)}
-                placeholder="John Mason"
+                placeholder="John Doe"
                 className={inputCls}
               />
             </div>
@@ -214,7 +214,7 @@ export default function ProfilePage() {
                 type="email"
                 value={form.email ?? ""}
                 onChange={(e) => set("email", e.target.value)}
-                placeholder="hello@ionidev.com"
+                placeholder="hello@domain.com"
                 className={inputCls}
               />
             </div>
@@ -224,7 +224,7 @@ export default function ProfilePage() {
                 type="url"
                 value={form.githubUrl ?? ""}
                 onChange={(e) => set("githubUrl", e.target.value || null)}
-                placeholder="https://github.com/simkidd"
+                placeholder="https://github.com/username"
                 className={inputCls}
               />
             </div>
@@ -234,7 +234,7 @@ export default function ProfilePage() {
                 type="url"
                 value={form.linkedinUrl ?? ""}
                 onChange={(e) => set("linkedinUrl", e.target.value || null)}
-                placeholder="https://linkedin.com/in/mason10396"
+                placeholder="https://linkedin.com/in/username"
                 className={inputCls}
               />
             </div>

@@ -21,7 +21,7 @@ export default function ShareButtons({ url, title, excerpt }: Props) {
 
   const absoluteUrl = url.startsWith("http")
     ? url
-    : `https://ionidev.com${url}`;
+    : `https://NsCliff.com${url}`;
 
   const handleNativeShare = async () => {
     if (navigator.share) {

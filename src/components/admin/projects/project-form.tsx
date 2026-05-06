@@ -309,7 +309,7 @@ export default function ProjectForm({ initial, onSubmit, submitting }: Props) {
             type="url"
             value={form.liveLink ?? ""}
             onChange={(e) => set("liveLink", e.target.value || null)}
-            placeholder="https://demo.ionidev.com"
+            placeholder="https://demo.NsCliff.com"
             className={inputCls}
           />
         </div>
@@ -320,7 +320,7 @@ export default function ProjectForm({ initial, onSubmit, submitting }: Props) {
               type="url"
               value={form.githubLink ?? ""}
               onChange={(e) => set("githubLink", e.target.value || null)}
-              placeholder="https://github.com/simkidd/..."
+              placeholder="https://github.com/username/..."
               className={inputCls}
             />
           </div>

@@ -56,8 +56,8 @@ export default function AdminLoginPage() {
             <Lock size={16} className="text-accent" />
           </div>
           <div>
-            <span className="font-mono-logo text-accent text-[15px]">i</span>
-            <span className="text-foreground text-[15px] font-medium">Onidev</span>
+            <span className="font-mono-logo text-accent text-[15px]">Ns</span>
+            <span className="text-foreground text-[15px] font-medium">Cliff</span>
             <span className="text-muted text-[13px] ml-2">Admin</span>
           </div>
         </div>
@@ -76,7 +76,7 @@ export default function AdminLoginPage() {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="hello@ionidev.com"
+              placeholder="hello@NsCliff.com"
               required
               className="w-full px-4 py-3 bg-card border border-border rounded-xl text-foreground text-sm font-light outline-none focus:border-accent transition-colors placeholder:text-muted/40"
             />

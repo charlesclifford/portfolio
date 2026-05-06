@@ -144,10 +144,10 @@ export default function Navigation() {
                 onClick={() => setMenuOpen(false)}
               >
                 <span className="font-mono-logo text-[18px] font-medium text-accent">
-                  i
+                  Ns
                 </span>
                 <span className="text-[18px] font-medium text-foreground">
-                  Onidev
+                  Cliff
                 </span>
               </Link>
               <button
