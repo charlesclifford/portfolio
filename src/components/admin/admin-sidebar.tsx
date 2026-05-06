@@ -44,10 +44,8 @@ export default function AdminSidebar() {
         {/* Logo */}
         <div className="px-6 py-5 border-b border-border shrink-0 flex items-center gap-1">
           <Link href="/" className="no-underline flex items-baseline">
-            <span className="font-mono-logo text-accent text-base">i</span>
-            <span className="text-foreground text-base font-medium">
-              Onidev
-            </span>
+            <span className="font-mono-logo text-accent text-base">Ns</span>
+            <span className="text-foreground text-base font-medium">Cliff</span>
           </Link>
           <span className="ml-1.5 text-[10px] tracking-widest uppercase text-muted border border-border rounded px-1.5 py-0.5">
             Admin

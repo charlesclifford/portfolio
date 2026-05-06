@@ -55,10 +55,10 @@ export default function Footer() {
               className="no-underline inline-flex items-baseline mb-2"
             >
               <span className="font-mono-logo text-[18px] font-medium text-accent">
-                i
+                Ns
               </span>
               <span className="text-[18px] font-medium text-foreground">
-                Onidev
+                Cliff
               </span>
             </Link>
             <p className="text-xs text-muted font-light">

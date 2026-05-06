@@ -60,10 +60,10 @@ export default function Navigation() {
             className="no-underline flex items-center gap-px z-50 relative"
           >
             <span className="font-mono-logo text-[18px] font-medium text-accent">
-              i
+              Ns
             </span>
             <span className="text-[18px] font-medium text-foreground">
-              Onidev
+              Cliff
             </span>
           </Link>
 
