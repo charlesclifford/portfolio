@@ -37,7 +37,7 @@ export default function EditExperiencePage({ params }: Props) {
         className="mb-8"
       >
         <Link
-          href="/admin/dashboard/experience"
+          href="/admin/dashboard/experiences"
           className="inline-flex items-center gap-1.5 text-xs text-muted no-underline hover:text-foreground transition-colors mb-5"
         >
           <ArrowLeft size={13} /> Back to Experience

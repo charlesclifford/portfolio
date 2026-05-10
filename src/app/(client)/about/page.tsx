@@ -49,7 +49,6 @@ export default function AboutPage() {
     { value: profile?.yearsExperience ?? "3+", label: "Years Experience" },
     { value: profile?.projectsShipped ?? "15+", label: "Projects Shipped" },
     { value: profile?.happyClients ?? "8+", label: "Happy Clients" },
-    { value: "6", label: "Languages / Frameworks" },
   ];
 
   const contactLinks = [
@@ -281,7 +280,7 @@ export default function AboutPage() {
           </motion.div>
         </div>
         {/* Stats */}
-        <div className="grid grid-cols-4 max-md:grid-cols-2 gap-4 border-t border-border pt-[60px]">
+        <div className="grid grid-cols-3 max-md:grid-cols-2 gap-4 border-t border-border pt-[60px]">
           {stats.map((stat, i) => (
             <motion.div
               key={stat.label}

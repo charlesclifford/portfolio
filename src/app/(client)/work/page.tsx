@@ -34,10 +34,7 @@ export default function WorkPage() {
         {/* Error */}
         {isError && (
           <div className="flex flex-col items-center justify-center min-h-[400px] gap-3 text-muted text-center">
-            <p className="text-base text-foreground">Failed to load projects</p>
-            <p className="text-sm">
-              Check your Appwrite configuration and try again.
-            </p>
+             <p className="text-sm">Failed to load projects. Try again later.</p>
           </div>
         )}
 
