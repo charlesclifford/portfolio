@@ -49,6 +49,7 @@ export default function AboutPage() {
     { value: profile?.yearsExperience ?? "3+", label: "Years Experience" },
     { value: profile?.projectsShipped ?? "15+", label: "Projects Shipped" },
     { value: profile?.happyClients ?? "8+", label: "Happy Clients" },
+    // { value: "6", label: "Languages / Frameworks" },
   ];
 
   const contactLinks = [
